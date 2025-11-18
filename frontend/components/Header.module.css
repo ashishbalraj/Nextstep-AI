@@ -1,0 +1,122 @@
+.header {
+  background: linear-gradient(90deg, #facc15, #38bdf8);
+  padding: 1rem 3rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+  height: 50px; /* Adjust the height of the logo */
+  width: 38px;
+}
+
+.leftSide {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* .logo img {
+  height: 38px;
+  width: 38px;
+  filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.4));
+} */
+
+
+.link {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  transition: all 0.3s ease;
+  font-size: 1.1rem; /* 👈 slightly larger font */
+  letter-spacing: 0.3px;
+}
+
+.link::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: #1e3a8a;
+  transition: width 0.3s ease;
+}
+
+.link:hover {
+  color: #facc15;
+}
+
+.link:hover::after {
+  width: 100%;
+}
+
+.signinButton {
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  background: #facc15;
+  color: #1e293b;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.signinButton:hover {
+  background: #fde047;
+}
+
+.signupButton {
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  background: #facc15;
+  color: #1e293b;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.signupButton:hover {
+  background: #fde047;
+}
+
+.authButtons {
+  display: flex;
+  gap: 1rem; /* This adds space between buttons */
+  align-items: center;
+}
+
+/* NEW: Hold the right side area (auth buttons) */
+.rightSide {
+  flex-grow: 1; /* Balance with leftSide */
+  min-width: 190px; /* Enough space for both buttons */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+/* NEW: Prevent nav from shifting when buttons hide */
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex: 1;
+  justify-content: center;
+}

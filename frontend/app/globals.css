@@ -1,0 +1,44 @@
+
+
+/* Reset default margin and set simple theme */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background-color: #f8fafc;
+  color: #0f172a;
+  margin: 0;
+  overflow-x: hidden; /* Prevent horizontal scrollbar caused by elements extending beyond viewport */
+}
+
+
+h1 {
+  color: #2563eb;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 1.1rem;
+  color: #475569;
+}
+
+/* Mobile Responsive Adjustments */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    padding: 3rem 1.5rem;
+    text-align: center;
+  }
+
+  .content {
+    max-width: 100%;
+  }
+
+  .image {
+    max-width: 80%;
+  }
+}

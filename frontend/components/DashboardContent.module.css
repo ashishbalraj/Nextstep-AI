@@ -1,0 +1,94 @@
+.container {
+  padding: 3rem;
+  min-height: 90vh;
+  background: linear-gradient(135deg, #1e3a8a, #2563eb, #38bdf8);
+  color: white;
+}
+
+/* Greeting Card */
+.greetingCard {
+  background: rgba(255, 254, 254, 0.15);
+  padding: 2rem;
+  border-radius: 15px;
+  margin-bottom: 2rem;
+  backdrop-filter: blur(14px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+  color: white;
+  
+}
+
+/* History Card */
+.historyCard {
+  background: rgba(255, 255, 255, 0.12);
+  padding: 2rem;
+  border-radius: 15px;
+  margin-bottom: 2rem;
+  backdrop-filter: blur(12px);
+}
+
+/* Quick Actions */
+.actions {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.actionButton {
+  padding: 1rem 1.4rem;
+  background: #facc15;
+  color: #1e293b;
+  border-radius: 10px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.actionButton:hover {
+  background: #fde047;
+}
+
+.logoutButton {
+  padding: 1rem 1.4rem;
+  border-radius: 10px;
+  background: #ef4444;
+  color: white;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.logoutButton:hover {
+  background: #dc2626;
+}
+
+/* Stats Cards Container */
+.statsContainer {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/* Individual Stat Card */
+.statCard {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.statValue {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #facc15;
+}
+
+.statLabel {
+  font-size: 0.95rem;
+  opacity: 0.8;
+  color: white;
+}
