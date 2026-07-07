@@ -158,9 +158,9 @@ Many students struggle to identify the right career path due to limited awarenes
 
 # 👨‍💻 Author
 
-Prasad Hegde
+ASHISH BALRAJ
 
-MSc Computer Science & Information Technology
+MCA GRADUATE
 
 AI Engineer | Machine Learning Enthusiast | Full Stack Developer
 
