@@ -1,0 +1,16 @@
+# Environment variables
+backend/.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+myenv/
+
+# Node
+node_modules/
+.next/
+out/
+
+# Logs
+*.log
