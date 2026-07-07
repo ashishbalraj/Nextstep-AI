@@ -1,6 +1,6 @@
     .section {
   padding: 3rem 1.5rem;
-  background: linear-gradient(180deg, #2563eb 0%, #f1f5f9 100%);
+  background: linear-gradient(180deg, #f2f4f7 0%, #f1f5f9 100%);
   min-height: 90vh;
   display: flex;
   justify-content: center;
@@ -9,7 +9,7 @@
 .chatContainer {
   width: 100%;
   max-width: 750px;
-  background: linear-gradient(145deg, #fde047, #ffffff);
+  background: linear-gradient(145deg, #f1f1ef, #ffffff);
   padding: 2rem;
   border-radius: 14px;
   box-shadow: 0 8px 25px rgba(0,0,0,0.1);
@@ -46,7 +46,7 @@
 }
 
 .userMessage {
-  background: #2563eb;
+  background: #375cac;
   color: white;
   align-self: flex-end;
 }
@@ -71,7 +71,7 @@
 }
 
 .input:focus {
-  border-color: #2563eb;
+  border-color: #688dde;
   outline: none;
 }
 
@@ -86,5 +86,5 @@
 }
 
 .sendButton:hover {
-  background: #1e40af;
+  background: #4970ee;
 }

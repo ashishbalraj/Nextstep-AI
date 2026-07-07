@@ -2,7 +2,7 @@
   position: relative; /* needed for pseudo-elements */
   padding: 5rem 2rem;
   text-align: center;
-  background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 50%, #38bdf8 100%);
+  background: linear-gradient(135deg, #1e98e5 0%, #72aad7 50%, #38bdf8 100%);
   color: #f8fafc;
   overflow: hidden; /* keep pseudo-elements inside */
 }

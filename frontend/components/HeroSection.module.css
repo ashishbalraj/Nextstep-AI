@@ -5,7 +5,7 @@
   padding: 4rem 5rem;
   min-height: 90vh;
   width: 100%;
-  background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 50%, #38bdf8 100%);
+  background: linear-gradient(135deg, #35ace4 0%, #599cee 50%, #38bdf8 100%);
   color: white;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
   gap: 2rem;
@@ -87,7 +87,7 @@
 }
 
 .highlight {
-  color: #facc15;
+  color: #d9be53;
 }
 
 .subtitle {

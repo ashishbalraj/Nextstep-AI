@@ -1,5 +1,5 @@
 .section {
-  background: linear-gradient(180deg, #2563eb 0%, #f1f5f9 100%);
+  background: linear-gradient(180deg, #ebedf2 0%, #f1f5f9 100%);
   padding: 5rem 2rem;
   min-height: 85vh;
   display: flex;
@@ -8,7 +8,7 @@
 }
 
 .container {
-  background: linear-gradient(145deg, #fde047, #ffffff);
+  background: linear-gradient(145deg, #ebeae5, #ffffff);
   padding: 3rem 2rem;
   border-radius: 12px;
   max-width: 600px;
@@ -20,7 +20,7 @@
 .heading {
   font-size: 2rem;
   font-weight: 700;
-  color: #0f172a;
+  color: #090c13;
   margin-bottom: 1rem;
 }
 

@@ -1,7 +1,7 @@
 .container {
   padding: 3rem;
   min-height: 90vh;
-  background: linear-gradient(135deg, #1e3a8a, #2563eb, #38bdf8);
+  background: linear-gradient(135deg, #f8f8fa, #a3afcb, #38bdf8);
   color: white;
 }
 
@@ -19,7 +19,7 @@
 
 /* History Card */
 .historyCard {
-  background: rgba(255, 255, 255, 0.12);
+  background: rgba(207, 204, 204, 0.12);
   padding: 2rem;
   border-radius: 15px;
   margin-bottom: 2rem;
@@ -34,7 +34,7 @@
 
 .actionButton {
   padding: 1rem 1.4rem;
-  background: #facc15;
+  background: #edcb44;
   color: #1e293b;
   border-radius: 10px;
   font-weight: 600;
@@ -43,13 +43,13 @@
 }
 
 .actionButton:hover {
-  background: #fde047;
+  background: #e3cb55;
 }
 
 .logoutButton {
   padding: 1rem 1.4rem;
   border-radius: 10px;
-  background: #ef4444;
+  background: #830101;
   color: white;
   border: none;
   font-weight: 600;
@@ -58,7 +58,7 @@
 }
 
 .logoutButton:hover {
-  background: #dc2626;
+  background: #7a0808;
 }
 
 /* Stats Cards Container */
@@ -84,11 +84,11 @@
   font-size: 1.8rem;
   font-weight: bold;
   margin-bottom: 5px;
-  color: #facc15;
+  color: #0e0c04;
 }
 
 .statLabel {
   font-size: 0.95rem;
   opacity: 0.8;
-  color: white;
+  color: rgb(16, 51, 81);
 }

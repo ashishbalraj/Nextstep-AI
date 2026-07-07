@@ -1,6 +1,6 @@
 .section {
   padding: 5rem 2rem;
-  background: linear-gradient(180deg, #2563eb 0%, #f1f5f9 100%);
+  background: linear-gradient(180deg, #3c9fe0 0%, #f1f5f9 100%);
   width: 100%;
   
 }
@@ -16,7 +16,7 @@
 .faqs {
   max-width: 1000px;
   margin: 0 auto;
-  background: #fde047;
+  background: #d7d5ce;
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
   padding: 2rem;

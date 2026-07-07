@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(135deg, #1e3a8a, #2563eb, #38bdf8);
+  background: linear-gradient(135deg, #aab7c0, #2563eb, #38bdf8);
   padding: 2rem;
   position: relative;
   overflow: hidden;
@@ -16,7 +16,7 @@
   left: 50%;
   width: 900px;
   height: 900px;
-  background: radial-gradient(circle, rgba(59,130,246,0.4), transparent 70%);
+  background: radial-gradient(circle, rgba(190, 198, 210, 0.4), transparent 70%);
   transform: translate(-50%, -50%);
   filter: blur(90px);
   animation: pulse 6s infinite ease-in-out;
